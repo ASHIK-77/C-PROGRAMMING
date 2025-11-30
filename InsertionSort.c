@@ -1,5 +1,5 @@
 #include<stdio.h>
-void Selectionsort(int arr[],int n)
+void Insertionsort(int arr[],int n)
 {    int temp,x;
     for(int i=0;i<n;i++)
     {  x=arr[i];
@@ -26,7 +26,7 @@ for(i=0;i<n;i++)
 {
     scanf("%d",&arr[i]);
 }
-Selectionsort(arr,n);
+Insertionsort(arr,n);
 return 0;
 
 }
